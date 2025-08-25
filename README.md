@@ -22,7 +22,6 @@ L’idée : construire un petit hub simple, moderne et rapide ⚡️ pour centra
 
    ```bash
    npm install
-   cp .env.example .env
    # puis ouvre le fichier .env et configure :
    # - YT_API_KEY (clé API YouTube)
    # - YT_CHANNEL_ID (ID de la chaîne YouTube)
@@ -52,7 +51,7 @@ npm run build
 npm run preview
 ```
 
-👉 Cela permet de tester le **build final** en local avant un déploiement.
+👉 Cela permet de tester le **build final** en local avant un déploiement sur Apache ou Ngnix par exemple.
 
 ---
 
@@ -66,7 +65,7 @@ npm run preview
 
 ## ❤️ Motivation
 
-Ce projet est né parce que **RapidolaFleche** voulait faire plaisir à un streamer qu’il apprécie énormément 💜.  
+Ce projet est né parce que je voulais faire plaisir à un streamer (Rayzopp) que j'apprécie énormément 💜.  
 C’est une base solide, mais libre à vous de l’améliorer, d’y ajouter vos idées, et d’en faire un hub encore plus fou 🚀.
 
 ---
