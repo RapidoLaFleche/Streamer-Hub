@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+/* Useful utility classes */
+.card {
+  @apply rounded-2xl border border-white/10 bg-neutral-900/60 shadow-soft;
+}
+
+.card-hover {
+  @apply transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-black/40;
+}
